@@ -20,11 +20,11 @@ class Student{
 
 public class pol {
     public static void main(String[] args) {
-        Student s = new Student();
-        s.name = "rahul";
-        s.age = 67;
+        Student s1 = new Student();
+        s1.name = "rahul";
+        s1.age = 67;
 
-        s.printing(s.age);    
+        s1.printing(s1.name, s1.age);    
     }
     
 }
