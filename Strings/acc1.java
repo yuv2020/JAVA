@@ -6,7 +6,7 @@ import java.util.*;
 public class acc1 {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the string: ");
+        System.out.println("Enter the string: ");   
         String s = sc.nextLine();
         
         System.out.println("Enter the number of words to print: ");
