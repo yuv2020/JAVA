@@ -1,3 +1,4 @@
+package Basic_ques;
 // Implement the sortings using the bubble sort.
 import java.util.*;
 

@@ -1,3 +1,4 @@
+package Basic_ques;
 // Program to calculate the fuel consumption of your truck.The program should ask the user to enter the 
 // quantity of diesel to fill up the tank and the distance covered till the tank goes dry.Calculate the 
 // fuel consumption and display it in the format (liters per 100 kilometers).

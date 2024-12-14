@@ -1,3 +1,4 @@
+package Basic_ques;
 public class set_bit {
     public static void main(String[] args){
         int n = 10; // binary: 1010

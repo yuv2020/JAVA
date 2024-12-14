@@ -1,3 +1,4 @@
+package Basic_ques;
 public class Project1 {
 
     static class Employee {

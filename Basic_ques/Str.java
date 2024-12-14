@@ -1,3 +1,4 @@
+package Basic_ques;
 import java.util.Scanner;
 
 public class Str {

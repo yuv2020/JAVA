@@ -1,3 +1,4 @@
+package Basic_ques;
 public class clear_bit {
     public static void main(String[] args) {
         int n = 5; // 15 = 1111 in binary

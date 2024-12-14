@@ -1,3 +1,4 @@
+package Basic_ques;
 // Problem Statement – Vohra went to a movie with his friends in a Wave theatre and during  
 // break time he bought pizzas, puffs and cool drinks. Consider   the following prices : 
 

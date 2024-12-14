@@ -1,3 +1,4 @@
+package Basic_ques;
 // Given a non empty array of integers nums, every element appears twice except for one. Find the single one.
 
 public class single_one {
