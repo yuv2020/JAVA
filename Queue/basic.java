@@ -5,6 +5,7 @@ public class basic {
         static int arr[];
         static int size;
         static int rear = -1;
+        in
 
         queue(int n){
             arr = new int[n];
