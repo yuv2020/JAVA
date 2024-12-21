@@ -5,7 +5,7 @@ public class basic {
         static int arr[];
         static int size;
         static int rear = -1;
-        in
+        int front = -1;
 
         queue(int n){
             arr = new int[n];
@@ -13,17 +13,35 @@ public class basic {
         }
 
         public static boolean isEmpty(){
-            return rear == -1;
+            return rear == -1 && front == -1;
+
+        }
+
+        public static boolean isFull(){
+            return (rear+1) % size == front;
         }
 
         //Enquque
         public static void add(int data) {
+            // if(rear == size-1){
+            //     System.out.println("Queue is full");
+            //     return;
+            // }
+            // rear++;
+            // arr[rear] = data; 
+            
+            
+            //For circular queue
             if(rear == size-1){
                 System.out.println("Queue is full");
                 return;
             }
-            rear++;
-            arr[rear] = data;            
+
+            if(front == -1){
+                front = 0;
+            }
+            rear = (rear + 1) % size;
+            arr[rear] = data;
         }
 
         //Dequeue
