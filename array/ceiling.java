@@ -3,8 +3,8 @@
 //Implement the first element to be searched first
 public class ceiling {
     public static void main(String[] args) {
-        int[] arr = {1, 3, 4, 5, 6};
-        int target = 5;
+        int[] arr = {-18, -12, 0 , 5, 6};
+        int target = 2;
         int index = binarySearch(arr, target);
         System.out.println("The value of : " + index);
     }
@@ -25,7 +25,7 @@ public class ceiling {
                 left = mid + 1;
             }
         }
-        return arr[left]; // return the index of the first element greater than or equal to target
+        return left; // return the index of the first element greater than or equal to target
     }    
 }
 
