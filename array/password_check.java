@@ -6,7 +6,7 @@ public class password_check{
         String password = "Geeks(hwiys@";
         print_strongest(password);
     }
-
+  
     public static void print_strongest(String password){
         int l = password.length();
         boolean haslower = false, hasupper = false, hasdigit = false, specialchar = false; 
