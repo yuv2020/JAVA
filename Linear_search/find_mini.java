@@ -13,8 +13,16 @@ public class find_mini {
                 ans = arr[i];
             }
             return ans;
+      
         }
+    }
 
+    /*
+    
+    // Shortcut mMethod to find the no. of digits in a number
+    static int digits2(int num1){
+        return (int)(Math.log(num1) + 1);
     }
     
+    */
 }
